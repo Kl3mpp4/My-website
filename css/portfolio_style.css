@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/*Styles for pages to fit users screen*/
 html, body {
     height: 100% !important;
     width: 100% !important;
@@ -19,24 +19,20 @@ html, body {
     width: 100% !important;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+/*Grid layout*/
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
 }
 
-.side {
-    flex: 0%;
+.main-text {
+    grid-column: 3;
+    grid-row: 3;
 }
 
-.main {
-    flex: 60%;
-    height: 600px;
-}
-
-p, h1 {
-    color: #00EC97;
-}
-
+/*Individual pages*/
 #home {
     background-color: #032435;
 }
@@ -51,4 +47,22 @@ p, h1 {
 
 #contact {
     background-color: cornsilk;
+}
+
+/*Styling content*/
+h6 {
+    color: #00EC97;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h1 {
+    color: #FBF9FF;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+p {
+    color: #8F8F8F;
+    font-size: 17px;
 }
