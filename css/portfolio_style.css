@@ -19,10 +19,18 @@ html, body {
     width: 100% !important;
 }
 
-.flex-container {
+.row {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 10%;
+}
+
+.main {
+    flex: 70%;
+    height: 600px;
 }
 
 p, h1 {
