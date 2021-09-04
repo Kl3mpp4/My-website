@@ -25,11 +25,11 @@ html, body {
 }
 
 .side {
-    flex: 10%;
+    flex: 0%;
 }
 
 .main {
-    flex: 70%;
+    flex: 60%;
     height: 600px;
 }
 
