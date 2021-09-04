@@ -19,6 +19,12 @@ html, body {
     width: 100% !important;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 p, h1 {
     color: #00EC97;
 }
