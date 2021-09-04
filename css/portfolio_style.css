@@ -19,8 +19,12 @@ html, body {
     width: 100% !important;
 }
 
+p, h1 {
+    color: #00EC97;
+}
+
 #home {
-    background-color: bisque;
+    background-color: #032435;
 }
 
 #about {
