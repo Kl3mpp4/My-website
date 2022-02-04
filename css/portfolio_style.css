@@ -24,12 +24,44 @@ html, body {
     display: grid;
     height: 100%;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
 }
 
 .main-text {
     grid-column: 3;
     grid-row: 3;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    /*background-color: azure;*/
+    width: 100%;
+    height: 10%;
+    align-content: center;
+    position: fixed;
+    background-color: #032435;
+}
+
+.logo {
+    padding-left: 15px;
+}
+
+.nav-home {
+    
+}
+
+.nav-about {
+    
+}
+
+.nav-portfolio {
+    
+}
+
+.nav-contact {
+    
 }
 
 /*Individual pages*/
@@ -65,4 +97,16 @@ h1 {
 p {
     color: #8F8F8F;
     font-size: 17px;
+}
+
+a {
+    color: #00EC97;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8F8F8F;
 }
