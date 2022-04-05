@@ -29,7 +29,7 @@ html, body {
 
 .main-text {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 .nav {
@@ -40,12 +40,13 @@ html, body {
     width: 100%;
     height: 10%;
     align-content: center;
+    justify-content: space-around;
     position: fixed;
     background-color: #032435;
 }
 
 .logo {
-    padding-left: 15px;
+    
 }
 
 .nav-home {
