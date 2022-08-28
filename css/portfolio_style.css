@@ -43,6 +43,11 @@ html, body {
     justify-content: space-around;
     position: fixed;
     background-color: #032435;
+    transition: transform 0.2s;
+}
+
+.nav--hidden {
+    transform: translateY(-100px);
 }
 
 .logo {
@@ -110,4 +115,5 @@ a:link {
 
 a:hover {
     color: #8F8F8F;
+    
 }
