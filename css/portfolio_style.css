@@ -93,7 +93,7 @@ html, body {
     .about-text {
         grid-column: 6;
         grid-row: 4;
-        width: 50%;
+        width: 20%;
         background-color: red;
     }
 
