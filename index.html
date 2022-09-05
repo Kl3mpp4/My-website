@@ -43,7 +43,13 @@
         </div>
         <!--about page-->
         <div class="page" id="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <!--Grid layout for positioning-->  
+            <div class="grid-container">
+                <!--Card for a picture-->
+                <div class="card">
+                    <img src="" alt="Avatar">
+                </div>
+            </div>
         </div>
         <!--portfolio page-->
         <div class="page" id="portfolio">
@@ -62,7 +68,7 @@
 
             window.addEventListener("scroll", () => {
                 if (lastScrollY < window.scrollY) {
-                    nav.classList.add("nav--hidden");
+                    nav.classList.add("nav--hidden");d
                 }
                 else {
                     nav.classList.remove("nav--hidden");
